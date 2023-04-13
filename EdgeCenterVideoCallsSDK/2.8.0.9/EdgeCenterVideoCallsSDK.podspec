@@ -16,7 +16,6 @@ Video calls via WebRTC based on EdgeCenter services for iOS.
   s.vendored_frameworks = "EdgeCenterVideoCallsSDK.xcframework"
   s.ios.deployment_target = '14.0'
   s.requires_arc          = true
-  s.
 #   s.frameworks =
 # 		"Mediasoup-Client-Swift",
 end
