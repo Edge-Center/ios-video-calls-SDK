@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EdgeCenterVideoCallsSDK'
-  s.version          = '2.8.0.13'
+  s.version          = '2.8.0.15'
   s.summary          = 'Video calls via WebRTC based on EdgeCenter services.'
 
   s.description      = <<-DESC
@@ -11,11 +11,10 @@ Video calls via WebRTC based on EdgeCenter services for iOS.
   s.homepage         = 'https://github.com/Edge-Center/ios-video-calls-SDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MaksimMyakishev' => 'Maksim.myakishev@edgecenter.ru' }
-  s.source           = { :http => 'file:' + __dir__ + '/EdgeCenterVideoCallsSDK.xcframework.zip' }
+ s.source           = { :http => 'file:' + __dir__ + '/EdgeCenterVideoCallsSDK.xcframework.zip' }
   s.swift_version      = '5.3'
   s.vendored_frameworks = "EdgeCenterVideoCallsSDK.xcframework"
-  s.ios.deployment_target = '14.0'
+  s.ios.deployment_target = '12.0'
   s.requires_arc          = true
-#   s.frameworks =
-# 		"Mediasoup-Client-Swift",
+
 end
