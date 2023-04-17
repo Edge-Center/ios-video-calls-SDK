@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EdgeCenterVideoCallsSDK'
-  s.version          = '0.0.0.6'
+  s.version          = '2.8.1'
   s.summary          = 'Video calls via WebRTC based on EdgeCenter services.'
   s.description      = <<-DESC
 Video calls via WebRTC based on EdgeCenter services for iOS.
